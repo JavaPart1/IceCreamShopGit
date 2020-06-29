@@ -24,9 +24,9 @@ public class IceCreamCar implements IceCreamSeller{
         return ;
     }*/
 
-    public Cone orderCone(Flavor[] ballsflvrs) throws NoMoreIceCreamException {
-        Cone conex;
-        conex = new Cone(ballsflvrs);
+    public Conee orderCone(Flavor[] ballsflvrs) throws NoMoreIceCreamException {
+        Conee conex;
+        conex = new Conee(ballsflvrs);
         if (this.stock.getBalls() > ballsflvrs.length && this.stock.getCones() > 1) {
             for (int i = 0; i < ballsflvrs.length; i++) {
                 this.profit = this.profit + this.pricelist.getBallPrice();

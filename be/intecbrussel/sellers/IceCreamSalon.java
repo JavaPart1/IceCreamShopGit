@@ -12,9 +12,9 @@ public class IceCreamSalon implements IceCreamSeller{
         this.totalProfit = 0;
     }
 
-    public Cone orderCone(Flavor[] ballsflvrs){
-        Cone conex;
-        conex = new Cone(ballsflvrs);
+    public Conee orderCone(Flavor[] ballsflvrs){
+        Conee conex;
+        conex = new Conee(ballsflvrs);
 
         for (int i = 0; i < ballsflvrs.length; i++) {
             this.totalProfit = this.totalProfit + this.pricelist.getBallPrice();

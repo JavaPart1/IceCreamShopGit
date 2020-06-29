@@ -13,12 +13,12 @@ public class IceCreamApp {
 
         IceCreamSeller iceSalon = new IceCreamSalon(pricelistx);
 
-        Cone cone1 = ((IceCreamSalon) iceSalon).orderCone(new Flavor[]{PISTACHE, Flavor.MOKKA, Flavor.MOKKA});
+        Conee conee1 = ((IceCreamSalon) iceSalon).orderCone(new Flavor[]{PISTACHE, Flavor.MOKKA, Flavor.MOKKA});
         Magnum magnum1 = ((IceCreamSalon) iceSalon).orderMagnum(MagnumType.ALPINENUTS);
         IceRocket iceRock1 = ((IceCreamSalon) iceSalon).orderIceRocket();
 
         Eatable[] eatables = new Eatable[]{
-                cone1,magnum1,iceRock1
+                conee1,magnum1,iceRock1
         };
 
         for (int i = 0; i < eatables.length ; i++) {

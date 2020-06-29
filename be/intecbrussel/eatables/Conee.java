@@ -1,12 +1,12 @@
 package be.intecbrussel.eatables;
 
-public class Cone implements Eatable{
+public class Conee implements Eatable{
     private Flavor[] balls;
 
-    public Cone() {
+    public Conee() {
     }
 
-    public Cone(Flavor balls[]) {
+    public Conee(Flavor balls[]) {
         this.balls = balls;
     }
 

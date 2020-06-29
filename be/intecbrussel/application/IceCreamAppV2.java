@@ -14,13 +14,13 @@ public class IceCreamAppV2 {
 
         try {
             if (icecar instanceof IceCreamCar){
-                Cone cone1 = ((IceCreamCar) icecar).orderCone(new Flavor[]{PISTACHE, Flavor.MOKKA, Flavor.MOKKA});
+                Conee conee1 = ((IceCreamCar) icecar).orderCone(new Flavor[]{PISTACHE, Flavor.MOKKA, Flavor.MOKKA});
                 Magnum magnum1 = ((IceCreamCar) icecar).orderMagnum(MagnumType.ROMANTICSTRAWBERRIES);
                 IceRocket iceRock1 = ((IceCreamCar) icecar).orderIceRocket();
                 IceRocket iceRock2 = ((IceCreamCar) icecar).orderIceRocket();
 
                 Eatable[] eatables = new Eatable[]{
-                        cone1,magnum1,iceRock1,iceRock2
+                        conee1,magnum1,iceRock1,iceRock2
 
                 };
 
